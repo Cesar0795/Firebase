@@ -10,4 +10,6 @@ const usuarios=proyecto.collection("miejemploBD");
 
 const producto=proyecto.collection("productos");
 
-module.exports={usuarios, producto};
+const venta=proyecto.collection("venta");
+
+module.exports={usuarios, producto, venta};
